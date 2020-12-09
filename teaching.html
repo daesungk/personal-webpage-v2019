@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123277960-1"></script>
+	<link media="all" href="main.css" type="text/css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Muli:300, 400, 600 &display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300, 400, 600 &display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:100&display=swap" rel="stylesheet">
+	
+	<!-- Google analytics -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-123277960-1');
+	</script>
+	
+	<!-- Mathjax -->
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+				tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],processEscapes: true}
+		});
+	</script>
+	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+	
+	<title>Daesung Kim</title>
+</head>
+
+<body>
+	<div class="top">
+		<div><a href="index.html" class="header-name">Daesung Kim</a></div>
+		<div class="nav">
+			<button class="nav-item" onclick="window.location.href = 'index.html';">Home</button>
+			<button class="nav-item" onclick="window.location.href = 'teaching.html';">Teaching</button>
+			<button class="nav-item" onclick="window.location.href = 'probseminar-f20.html';">Probability seminar </button>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main-item">
+			<div class="main-item-content">
+				<dl>
+					<dt>Fall 2020 </dt>
+						<dd><a href="teaching-f20-math285.html">Math 285: Differential equations</a></dd>
+					<dt>Spring 2020 </dt>
+						<dd><a href="teaching-s20-math285.html">Math 285: Differential equations</a></dd>
+					<dt>Fall 2019</dt>
+						<dd><a href="teaching-f19-math416.html">Math 416: Abstract linear algebra</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		&copy; 2019 Daesung Kim
+	</div>
+</body>
+
+<!-- Collapsible -->
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	coll[i].addEventListener("click", function() {
+	this.classList.toggle("active");
+	var content = this.nextElementSibling;
+	if (content.style.maxHeight){
+	content.style.maxHeight = null;
+	} else {
+	content.style.maxHeight = content.scrollHeight + "px";
+	} 
+	});
+	}
+</script>
+</html>

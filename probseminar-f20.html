@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123277960-1"></script>
+	<link media="all" href="main.css" type="text/css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Muli:300, 400, 600 &display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300, 400, 600 &display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:100&display=swap" rel="stylesheet">
+	
+	<!-- Google analytics -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-123277960-1');
+	</script>
+	
+	<!-- Mathjax -->
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+				tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],processEscapes: true}
+		});
+	</script>
+	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+	
+	<title>Daesung Kim</title>
+</head>
+
+<body>
+	<div class="top">
+		<div><a href="index.html" class="header-name">Daesung Kim</a></div>
+		<div class="nav">
+			<button class="nav-item" onclick="window.location.href = 'index.html';">Home</button>
+			<button class="nav-item" onclick="window.location.href = 'teaching.html';">Teaching</button>
+			<button class="nav-item" onclick="window.location.href = 'probseminar-f20.html';">Probability seminar </button>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main-item">
+			<div class="main-item-title">Probability Seminar at Urbana-Champaign, Fall 2020</div>
+			<div class="main-item-content">
+				Tuesday at 2 pm in Zoom. Please email me (<a href="mailto:daesungk@illinois.edu">daesungk (at) illinois.edu</a>) for information.
+			</div>
+			<div class="main-item-subtitle">Schedule</div>
+			<div class="main-item-content">
+				<table style="width:100%"><col width="100"><col width="350"><col width="680">
+					<tr>
+						<th align="left">Date</th>
+						<th align="left">Speaker</th>
+						<th align="left">Title</th>
+					</tr>
+					<tr>
+						<td>9/22</td>
+						<td>
+							<a href="https://www.ewbates.com">Erik Bates</a> 
+							<br>(University of Wisconsin-Madison)
+						</td>
+						<td>
+							Empirical measures, geodesic lengths, and a variational formula in first-passage percolation 
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content"><p>We consider the standard first-passage percolation model on Z^d, in which each edge is assigned an i.i.d. nonnegative weight, and the passage time between any two points is the smallest total weight of a nearest-neighbor path between them.  Our primary interest is in the empirical measures of edge-weights observed along geodesics from 0 to ne_1.  For various dense families of edge-weight distributions, we prove that these measures converge weakly to a deterministic limit as n tends to infinity.  The key tool is a new variational formula for the time constant.  In this talk, I will derive this formula and discuss its implications for the convergence of both empirical measures and lengths of geodesics.</p></div>
+						</td>
+					</tr>
+					<tr>
+						<td>9/23 <br><b>(at 3pm)</b></td>
+						<td>
+							<a href="https://www.ewbates.com">Erik Bates</a> 
+							<br>(University of Wisconsin-Madison)
+						</td>
+						<td>
+							<b>(Follow-up talk)</b> Empirical distributions (and another variational formula) in first-passage percolation on trees 
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content">
+								<p>
+									This talk will address the same topic as Tuesday's probability seminar, but in a simplified setting: we replace the d-dimensional integer lattice with the infinite d-ary tree.  In this "mean-field" case, we are able to completely resolve the question of convergence for empirical distributions along FPP geodesics.  The proof, which will be presented in full, leads to two interesting threads of discussion.  The first concerns the difference between lattice percolation and tree percolation; here I invite discussion of an open problem.  The second thread is a corollary of our methods, namely a fact about convergence of measures which I have not seen before.  The talk should be accessible to all, and I will not assume that any part of Tuesday's seminar is remembered.
+								</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>10/6</td>
+						<td>
+							<a href="https://www.yairshenfeld.com">Yair Shenfeld</a>
+							<br> (MIT)
+						</td>
+						<td>
+Degenerate diffusions and optimal convex bodies
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content"><p>
+It has been known since antiquity that the ball is the unique shape which minimizes surface area among all shapes of equal volume. Remarkably, if in addition to the volume, the average width of the shape is fixed, the optimal solutions become non-unique and non-smooth. This is just a very special instance of optimization problems arising in convex geometry whose optimal solutions are bizarre and still conjectural. In this talk, I will explain how the study of these optimal shapes is intertwined with the spectral structure of a certain diffusion operator on the sphere, and how we (with Ramon van Handel) solved many of these problems. No prior knowledge of convex geometry is assumed.
+                                </p></div>
+						</td>
+					</tr>
+					<tr>
+						<td>10/13</td>
+						<td>
+							<a href="https://sites.google.com/view/jinsu-kim/">Jinsu Kim</a>
+							<br>(UCI)
+							</td>
+						<td>
+							Stochastically modeled reaction network
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content">
+								<p>
+									A reaction network is a graphical configuration that describes an interaction between species (molecules). If the abundances of the network system are small, then the randomness inherent in the molecular interactions is important to the system dynamics, and the abundances are modeled stochastically as a jump by jump fashion continuous-time Markov chain. One of the challenging issues facing researchers who study biological systems is the often extraordinarily complicated structure of their interaction networks. Thus, how to characterize network structures that induce characteristic behaviors of the system dynamics is one of the major open questions in this literature. In this talk, I will provide a class of reaction networks whose associated stochastic process is stable. I will also provide how this stability can be used in system biology and control theory.
+								</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>10/20</td>
+						<td>
+							<a href="https://sites.google.com/site/cyleeken/">Cheuk Yin Lee</a>  
+							<br>(EPFL)
+						</td>
+						<td>
+                            Multiple points of Gaussian random fields
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content">
+								<p>
+                                This talk is concerned with multiple points (or self-intersections) of multivariate Gaussian random fields. Typically, the existence of multiple points depends on the dimensions of the domain and state space, and the existence problem is more difficult to solve when a random field is in its critical dimension. Under the framework of Dalang, Mueller and Xiao (2017), we prove that for a class of Gaussian random fields, multiple points do not exist in critical dimension. Our approach is based on a covering argument of Talagrand (1998). The result can be applied to fractional Brownian sheets and systems of linear SPDEs such as stochastic heat equations and wave equations driven by space-time white noise or colored noise. Joint work with Robert Dalang, Carl Mueller and Yimin Xiao.
+								</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>10/26 <b>(at 2pm)</b></td>
+						<td>
+							<a href="https://www.math.purdue.edu/~peterson/ ">Jonathon Peterson</a>  
+							<br>(Purdue)
+						</td>
+						<td>
+                            <b>(Introductory talk)</b> An introduction to random walks in random environments
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content">
+								<p>
+                                I will give an introduction to the model of random walks in random environments, paying particular attention to the one-dimensional case. I will give sketches of proofs for some of the basic results, including criteria for recurrence/transience, limiting velocity, and a central limit theorem.
+								</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>10/27</td>
+						<td>
+							<a href="https://www.math.purdue.edu/~peterson/ ">Jonathon Peterson</a>  
+							<br>(Purdue)
+						</td>
+						<td>
+                            Quantitative quenched CLTs for one-dimensional random walks in random environments
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content">
+								<p>
+                                The Berry-Esseen estimates give quantitative error estimates on the CLT for sums of i.i.d. random variables, and the polynomial decay rate for the error depends on moment bounds of the i.i.d. random variables with the optimal $1/\sqrt{n}$ rate of convergence obtained under a third moment assumption. In this talk we will prove quantitative error bounds for quenched CLTs of both the position and hitting times of one dimensional random walks in random environments (RWRE). For the quantitative CLTs for the hitting times we prove that our rates our optimal. This talk is based on joint works with Sungwon Ahn.
+								</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>11/3</td>
+						<td>
+							<a href="https://sites.google.com/view/perlmutma/home">Michael Perlmutter  </a> 
+							<br>(UCLA)
+						</td>
+						<td>
+                            The Scattering Transform: a Wavelet-based Neural Network for Statistical Feature Extraction 
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content">
+								<p>
+                                The scattering transform is a mathematical framework for understanding convolutional neural networks (CNNs) introduced by S. Mallat.  Similar to more traditional CNNs, the scattering transform is a deep, feed-forward network featuring an alternating cascade of convolutions and nonlinearities. However, it differs by using predesigned, wavelet filters rather than filters that are learned from training data. This leads to a network that provably has desirable invariance and stability properties.
+
+ In addition to preforming well on standard machine learning tasks such as image recognition. The scattering transform can also be used to extract statistical information about stochastic processes with stationary increments. The expected scattering moments are a novel form of nonparametric statistics which can be used to distinguish random textures with identical power spectrums. I will present Mallat's original construction as well as several novel variations designed for structured data such as graphs. In particular, I will discuss the use of one of the more recent construction to distinguish between different types of randomly generated graphs.
+								</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>11/10</td>
+						<td>
+							<a href="https://sites.google.com/site/qifengmath/home">Qi Feng</a> 
+							<br>(USC)
+						</td>
+						<td>
+                            Entropy dissipation for degenerate diffusion process
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content">
+								<p>
+                                A drift-diffusion process with non-degenerate diffusion coefficient matrix posses good properties (under certain conditions): convergence to equilibrium, entropy dissipation rate, etc. The degenerate drift-diffusion process possess degenerate/rectangular diffusion coefficient matrix, which makes it difficult to govern the convergence property and entropy dissipation rate by drift-diffusion coefficients on its own because of lacking control for the system. In general, the degenerate drift-diffusion is intrinsically equipped with sub-Riemannian struc- ture defined by the diffusion coefficients. We propose a new methodology to systematically study general drift-diffusion process through sub-Riemannian geometry and Wasserstein geometry. We generalize the Bakry-Emery calculus and Gamma z (Baudoin-Garofalo) calculus to define a new notion of sub-Riemannian Ricci curvature tensor. With the new Ricci curvature tensor, we are able to establish generalized curvature dimension bounds on sub-Riemannnian manifolds which goes beyond step two condition. As application, for the first time, we establish analytical bounds for logarithmic Sobolev inequalities for the weighted measure in a compact region on displacement group(SE(2)). Our result also provides entropy dissipation rate for Langevin dynamics with gradient drift and variable temperature matrix. The talk is based on joint works with Wuchen Li.
+								</p>
+							</div>
+                        </td>
+					</tr>
+					<tr>
+						<td>12/1</td>
+						<td>
+							<a href="https://sites.google.com/site/louisfanmath/">Wai-Tong (Louis) Fan</a> 
+							<br>(Indiana University)
+						</td>
+						<td>
+                            Joint distribution of Busemann functions in corner growth models
+							<span class="collapsible">[abstract]</span>
+							<div class="collapsible-content">
+								<p>
+                                The 1+1 dimensional corner growth model with exponential weights is a centrally important exactly solvable model in the Kardar-Parisi-Zhang class of statistical mechanical models. While significant progress has been made on the fluctuations of the growing random shape, understanding of the optimal paths, or geodesics, is less developed. The Busemann function is a useful analytical tool for studying geodesics. We present the joint distribution of the Busemann functions, simultaneously in all directions of growth, in terms of mappings that represent FIFO (first-in-first-out) queues. As applications of this description we derive a marked point process representation for the Busemann function across a single lattice edge and point out its implication on structure of semi-infinite geodesics. This is joint work with Timo Sepp&auml;l&auml;inen.
+								</p>
+							</div>
+                        </td>
+					</tr>
+				</table>
+			</div>
+			</div>
+	</div>
+	<div class="bottom">
+		&copy; 2019 Daesung Kim
+	</div>
+</body>
+
+<!-- Collapsible -->
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	coll[i].addEventListener("click", function() {
+	this.classList.toggle("active");
+	var content = this.nextElementSibling;
+	if (content.style.maxHeight){
+	content.style.maxHeight = null;
+	} else {
+	content.style.maxHeight = content.scrollHeight + "px";
+	} 
+	});
+	}
+</script>
+</html>
+
+
+
